@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light to Dark Theme</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="theme-toggler" class="fas fa-moon"></div>
+      <div class="container-2">
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aperiam
+            esse, deserunt quas quam eaque quae, fugiat aliquid reprehenderit
+            molestias voluptatibus tenetur ducimus! Reprehenderit quam, magnam
+            suscipit enim sapiente deserunt?
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aperiam
+            esse, deserunt quas quam eaque quae, fugiat aliquid reprehenderit
+            molestias voluptatibus tenetur ducimus! Reprehenderit quam, magnam
+            suscipit enim sapiente deserunt?
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aperiam
+            esse, deserunt quas quam eaque quae, fugiat aliquid reprehenderit
+            molestias voluptatibus tenetur ducimus! Reprehenderit quam, magnam
+            suscipit enim sapiente deserunt?
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aperiam
+            esse, deserunt quas quam eaque quae, fugiat aliquid reprehenderit
+            molestias voluptatibus tenetur ducimus! Reprehenderit quam, magnam
+            suscipit enim sapiente deserunt?
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aperiam
+            esse, deserunt quas quam eaque quae, fugiat aliquid reprehenderit
+            molestias voluptatibus tenetur ducimus! Reprehenderit quam, magnam
+            suscipit enim sapiente deserunt?
+          </p>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut aperiam
+            esse, deserunt quas quam eaque quae, fugiat aliquid reprehenderit
+            molestias voluptatibus tenetur ducimus! Reprehenderit quam, magnam
+            suscipit enim sapiente deserunt?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      let themeToggler = document.getElementById("theme-toggler");
+      themeToggler.onclick = () => {
+        themeToggler.classList.toggle("fa-sun");
+
+        if (themeToggler.classList.contains("fa-sun")) {
+          document.body.classList.add("active");
+        } else {
+          document.body.classList.remove("active");
+        }
+      };
+    </script>
+  </body>
+</html>
